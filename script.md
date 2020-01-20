@@ -15,6 +15,22 @@
  ***NOTA:*** O ESLINT sempre instala usando o *npm*, caso esteja usando o *yarn*, delete o arquivo *package-lock.json* e execute o comando *`yarn`* na raíz do projeto.
 <br/>
 
+### EDITORCONFIG
+1. Instalação:
+    - Crie o aqruivo ***.editorconfig***
+    - O arquivo ***editorconfig*** deve ficar da seguinte maneira:
+    ```
+    root = true
+    [*]
+    indent_style = space
+    indent_size = 4
+    charset = utf-8
+    trim_trailing_whitespace = true
+    insert_final_newline = true
+    end_of_line = lf
+    ```
+<br/>
+
 ### PRETTIER
 1. Instalação:
     `yarn add prettier eslint-config-prettier eslint-plugin-prettier -D`
@@ -23,7 +39,7 @@
 1. Configuração:
    - Crie o arquivo ***.prettierrc*** na raíz do projeto
    - O arquivo ***.prettierrc*** deve ficar da seguinte maneira:
-   ```js
+   ```
    {
     "singleQuote": true,
     "trailingComma": "es5"
@@ -76,3 +92,33 @@ module.exports = {
 ```
 <br/>
 
+### ROTAS
+1. Instalação:
+    `yarn add react-router-dom`
+<br/>
+
+1. Configuração:
+    - Crie o arquivo de rotas ***routes.js*** dentro da pasta *src* do projeto e coloque todas as rotas da aplicação nele.
+<br/>
+
+### STYLED
+1. Instalação:
+    `yarn add styled-components`
+- Instalar o seguinte plugin no VSCode:
+    `vscode-styled-components`
+<br/>
+
+### ICONS
+1. Instalação:
+    `yarn add react-icons`
+<br/>
+
+### AXIOS
+1. Instalação:
+    `yarn add axios`
+<br/>
+
+### PROP TYPES
+1. Instalação:
+    `yarn add prop-types`
+<br/>
